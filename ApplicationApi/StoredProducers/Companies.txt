@@ -1,0 +1,11 @@
+﻿//.......................................................Companies Product Details
+CREATE PROCEDURE [dbo].usp_CompaniesGetAllCompanies
+
+AS
+select c.CompanyId,c.CompanyName,c.Description , 
+isNull(COUNT(ProductName),0) as 'TotalProducts',
+sum(case when p.ExpeiryDate < GETDATE() then 1 else 0 end) as 'ExpiredProducts'
+from CompanyDetail c left join Product p ON c.CompanyId = p.CompanyId
+group by c.CompanyId, c.CompanyName,c.Description
+order by TotalProducts Desc
+RETURN 0

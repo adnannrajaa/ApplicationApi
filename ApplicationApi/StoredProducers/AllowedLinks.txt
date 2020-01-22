@@ -1,0 +1,25 @@
+﻿/////////............usp_AllowedLinksGetAssignedOrUnAssignedPages
+
+CREATE PROCEDURE usp_AllowedLinksGetAssignedOrUnAssignedPages
+	@UserId nvarchar(max) ,
+	@Condition nvarchar(max)
+AS
+	if @Condition = 'Assign'
+	Begin
+	select * from ActionLinks
+where ActionLinkId In (
+select ActionLinkId from AllowedLinks where UserId = @UserId and IsAssinged !='false') And IsActiveLink !='false'
+	end
+	if @Condition = 'NotAssign'
+	Begin
+	select * from ActionLinks
+where ActionLinkId Not In (
+select ActionLinkId from AllowedLinks where UserId =  @UserId and IsAssinged !='false') And IsActiveLink !='false'
+	END
+
+	if @Condition = 'All'
+	Begin
+	select * from ActionLinks
+where IsActiveLink != 'false'
+	END
+RETURN 0

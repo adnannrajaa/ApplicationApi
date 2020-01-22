@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "ApplicationApi.Utility/1.0.0": {
+        "runtime": {
+          "ApplicationApi.Utility.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ApplicationApi.Utility/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

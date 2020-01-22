@@ -1,0 +1,15 @@
+﻿//......................................Get All Products
+CREATE PROCEDURE [dbo].usp_ProductGetAllProducts
+	
+AS
+select P.ProductId, c.CompanyName ,pc.CategoryName,  pu.UnitName,
+p.ProductName,p.Quantity,p.CostPrice,p.WholeSalePrice,
+p.RetailPrice,p.ExpeiryDate,p.Status
+from Product p inner join CompanyDetail c
+on p.CompanyId=c.CompanyId
+INNER jOIN  ProductCategories as pc
+on pc.CategoryId=p.CategoryId
+Inner Join  ProductUnit as pu
+on pu.UnitId=p.UnitId
+
+RETURN 0

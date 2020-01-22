@@ -1,0 +1,28 @@
+﻿//////.............///.....................usp_UsersGetAllUsers
+
+CREATE PROCEDURE usp_UsersGetAllUsers
+	@UserId nvarchar(max)
+AS
+begin
+	select u.id as UserId,u.FirstName +' '+ u.LastName as FullName, c.CompanyName as CompanyName,u.PhoneNumber as Contact,u.Email as Email,u.Designation as Designation,r.Name as RoleName,u.Section as Section ,u.LockoutEnabled as IsLocked   from AspNetUsers u inner join CompanyDetail c 
+on u.CompanyId=c.CompanyId
+inner join AspNetRoles r 
+on u.RoleId = r.Id
+where u.Id !=@UserId
+order by u.currentDateTime desc
+end
+
+
+
+
+/////////////////////////.........usp_UsersGetAllEmployeePerformance
+
+
+CREATE PROCEDURE usp_UsersGetAllEmployeePerformance
+AS
+	select p.PerformanceId as 'id', u.FirstName+' '+u.LastName as 'EmployeeName', p.Month as 'Month',
+p.TotalTarget as 'TotalTarget' ,ISNULL(p.TargetAchieved,0) as 'TargetAchieved' ,
+ISNULL(p.Completion,0) as 'Completion' , p.IsMonthClosed as 'IsMonthClosed'
+from Performances p inner join AspNetUsers u on p.UserId=u.id
+
+RETURN 0

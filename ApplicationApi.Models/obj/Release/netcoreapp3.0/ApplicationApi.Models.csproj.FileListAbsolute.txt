@@ -1,0 +1,16 @@
+C:\Users\Muhammad Adnan Shan\Documents\Github\adnannrajaa\ApplicationApi\ApplicationApi\ApplicationApi.Models\bin\Release\netcoreapp3.0\ApplicationApi.Models.deps.json
+C:\Users\Muhammad Adnan Shan\Documents\Github\adnannrajaa\ApplicationApi\ApplicationApi\ApplicationApi.Models\bin\Release\netcoreapp3.0\ApplicationApi.Models.dll
+C:\Users\Muhammad Adnan Shan\Documents\Github\adnannrajaa\ApplicationApi\ApplicationApi\ApplicationApi.Models\bin\Release\netcoreapp3.0\ApplicationApi.Models.pdb
+C:\Users\Muhammad Adnan Shan\Documents\Github\adnannrajaa\ApplicationApi\ApplicationApi\ApplicationApi.Models\obj\Release\netcoreapp3.0\ApplicationApi.Models.AssemblyInfoInputs.cache
+C:\Users\Muhammad Adnan Shan\Documents\Github\adnannrajaa\ApplicationApi\ApplicationApi\ApplicationApi.Models\obj\Release\netcoreapp3.0\ApplicationApi.Models.AssemblyInfo.cs
+C:\Users\Muhammad Adnan Shan\Documents\Github\adnannrajaa\ApplicationApi\ApplicationApi\ApplicationApi.Models\obj\Release\netcoreapp3.0\ApplicationApi.Models.dll
+C:\Users\Muhammad Adnan Shan\Documents\Github\adnannrajaa\ApplicationApi\ApplicationApi\ApplicationApi.Models\obj\Release\netcoreapp3.0\ApplicationApi.Models.pdb
+C:\Users\Muhammad Adnan Shan\Documents\Github\adnannrajaa\ApplicationApi\ApplicationApi\ApplicationApi.Models\obj\Release\netcoreapp3.0\ApplicationApi.Models.csprojAssemblyReference.cache
+C:\Users\Adnan Raja\Documents\GitHub\ApplicationApi\ApplicationApi.Models\bin\Release\netcoreapp3.0\ApplicationApi.Models.deps.json
+C:\Users\Adnan Raja\Documents\GitHub\ApplicationApi\ApplicationApi.Models\bin\Release\netcoreapp3.0\ApplicationApi.Models.dll
+C:\Users\Adnan Raja\Documents\GitHub\ApplicationApi\ApplicationApi.Models\bin\Release\netcoreapp3.0\ApplicationApi.Models.pdb
+C:\Users\Adnan Raja\Documents\GitHub\ApplicationApi\ApplicationApi.Models\obj\Release\netcoreapp3.0\ApplicationApi.Models.csprojAssemblyReference.cache
+C:\Users\Adnan Raja\Documents\GitHub\ApplicationApi\ApplicationApi.Models\obj\Release\netcoreapp3.0\ApplicationApi.Models.AssemblyInfoInputs.cache
+C:\Users\Adnan Raja\Documents\GitHub\ApplicationApi\ApplicationApi.Models\obj\Release\netcoreapp3.0\ApplicationApi.Models.AssemblyInfo.cs
+C:\Users\Adnan Raja\Documents\GitHub\ApplicationApi\ApplicationApi.Models\obj\Release\netcoreapp3.0\ApplicationApi.Models.dll
+C:\Users\Adnan Raja\Documents\GitHub\ApplicationApi\ApplicationApi.Models\obj\Release\netcoreapp3.0\ApplicationApi.Models.pdb

@@ -1,0 +1,363 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Muhammad Adnan Shan\\Documents\\Github\\adnannrajaa\\ApplicationApi\\ApplicationApi\\ApplicationApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Muhammad Adnan Shan\\Documents\\Github\\adnannrajaa\\ApplicationApi\\ApplicationApi.DataAccess\\ApplicationApi.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Muhammad Adnan Shan\\Documents\\Github\\adnannrajaa\\ApplicationApi\\ApplicationApi.DataAccess\\ApplicationApi.DataAccess.csproj",
+        "projectName": "ApplicationApi.DataAccess",
+        "projectPath": "C:\\Users\\Muhammad Adnan Shan\\Documents\\Github\\adnannrajaa\\ApplicationApi\\ApplicationApi.DataAccess\\ApplicationApi.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Muhammad Adnan Shan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Muhammad Adnan Shan\\Documents\\Github\\adnannrajaa\\ApplicationApi\\ApplicationApi.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Muhammad Adnan Shan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\Muhammad Adnan Shan\\Documents\\Github\\adnannrajaa\\ApplicationApi\\ApplicationApi.Models\\ApplicationApi.Models.csproj": {
+                "projectPath": "C:\\Users\\Muhammad Adnan Shan\\Documents\\Github\\adnannrajaa\\ApplicationApi\\ApplicationApi.Models\\ApplicationApi.Models.csproj"
+              },
+              "C:\\Users\\Muhammad Adnan Shan\\Documents\\Github\\adnannrajaa\\ApplicationApi\\ApplicationApi.Utility\\ApplicationApi.Utility.csproj": {
+                "projectPath": "C:\\Users\\Muhammad Adnan Shan\\Documents\\Github\\adnannrajaa\\ApplicationApi\\ApplicationApi.Utility\\ApplicationApi.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.30, )"
+            },
+            "Microsoft.AspNet.Identity.Core": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.AspNetCore.Mvc.DataAnnotations": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Formatters.Json": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.ViewFeatures": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Muhammad Adnan Shan\\Documents\\Github\\adnannrajaa\\ApplicationApi\\ApplicationApi.Models\\ApplicationApi.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Muhammad Adnan Shan\\Documents\\Github\\adnannrajaa\\ApplicationApi\\ApplicationApi.Models\\ApplicationApi.Models.csproj",
+        "projectName": "ApplicationApi.Models",
+        "projectPath": "C:\\Users\\Muhammad Adnan Shan\\Documents\\Github\\adnannrajaa\\ApplicationApi\\ApplicationApi.Models\\ApplicationApi.Models.csproj",
+        "packagesPath": "C:\\Users\\Muhammad Adnan Shan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Muhammad Adnan Shan\\Documents\\Github\\adnannrajaa\\ApplicationApi\\ApplicationApi.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Muhammad Adnan Shan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Muhammad Adnan Shan\\Documents\\Github\\adnannrajaa\\ApplicationApi\\ApplicationApi.Utility\\ApplicationApi.Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Muhammad Adnan Shan\\Documents\\Github\\adnannrajaa\\ApplicationApi\\ApplicationApi.Utility\\ApplicationApi.Utility.csproj",
+        "projectName": "ApplicationApi.Utility",
+        "projectPath": "C:\\Users\\Muhammad Adnan Shan\\Documents\\Github\\adnannrajaa\\ApplicationApi\\ApplicationApi.Utility\\ApplicationApi.Utility.csproj",
+        "packagesPath": "C:\\Users\\Muhammad Adnan Shan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Muhammad Adnan Shan\\Documents\\Github\\adnannrajaa\\ApplicationApi\\ApplicationApi.Utility\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Muhammad Adnan Shan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Muhammad Adnan Shan\\Documents\\Github\\adnannrajaa\\ApplicationApi\\ApplicationApi\\ApplicationApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Muhammad Adnan Shan\\Documents\\Github\\adnannrajaa\\ApplicationApi\\ApplicationApi\\ApplicationApi.csproj",
+        "projectName": "ApplicationApi",
+        "projectPath": "C:\\Users\\Muhammad Adnan Shan\\Documents\\Github\\adnannrajaa\\ApplicationApi\\ApplicationApi\\ApplicationApi.csproj",
+        "packagesPath": "C:\\Users\\Muhammad Adnan Shan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Muhammad Adnan Shan\\Documents\\Github\\adnannrajaa\\ApplicationApi\\ApplicationApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Muhammad Adnan Shan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\Muhammad Adnan Shan\\Documents\\Github\\adnannrajaa\\ApplicationApi\\ApplicationApi.DataAccess\\ApplicationApi.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Muhammad Adnan Shan\\Documents\\Github\\adnannrajaa\\ApplicationApi\\ApplicationApi.DataAccess\\ApplicationApi.DataAccess.csproj"
+              },
+              "C:\\Users\\Muhammad Adnan Shan\\Documents\\Github\\adnannrajaa\\ApplicationApi\\ApplicationApi.Models\\ApplicationApi.Models.csproj": {
+                "projectPath": "C:\\Users\\Muhammad Adnan Shan\\Documents\\Github\\adnannrajaa\\ApplicationApi\\ApplicationApi.Models\\ApplicationApi.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Formatters.Json": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

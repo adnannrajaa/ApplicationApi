@@ -1,0 +1,95 @@
+//.................. Product Category
+
+..............for GetAll = api/category/GetAllCategories
+
+..............for GetById = /api/category/GetCategoryById/{id}
+
+..............for Delete= api/category/DeleteCategory/{id}
+
+..............for UpdateGET= api/category/Upsert/{id}
+
+..............for InsertGet= api/category/Upsert
+
+..............for UpdateInsertPost= api/category/SaveCategoryData
+
+
+
+//.................. Product Details
+
+..............for GetAll = api/Product/GetAllProducts
+
+..............for GetById = api/Product/GetProductById/{id}
+
+..............for Delete= api/Product/DeleteProduct/{id}
+
+..............for UpdateGET= api/Product/Upsert/{id}
+
+..............for InsertGet= api/Product/Upsert
+
+..............for UpdateInsertPost= api/Product/SaveProductData
+
+
+//.................. Shop Details
+
+..............for GetAll = api/shop/GetAllShops
+
+..............for GetById = api/shop/GetShopsById/{id}
+
+..............for Delete= api/shop/DeleteShop/{id}
+
+..............for UpdateGET= api/shop/Upsert/{id}
+
+..............for InsertGet= api/shop/Upsert
+
+..............for UpdateInsertPost= api/shop/SaveShopsData
+
+
+//.................. Company Details
+
+..............for GetAll = api/Company/GetAllCompanies
+
+..............for GetById = api/Company/GetCompanyById/{id}
+
+..............for Delete= api/Company/DeleteCompany/{id}
+
+..............for UpdateGET= api/Company/Upsert/{id}
+
+..............for InsertGet= api/Company/Upsert
+
+..............for UpdateInsertPost= api/Company/SaveCompanyData
+
+
+
+//.................. Product Units
+
+..............for GetAll = api/ProductUnit/GetAllUnits
+
+..............for GetById = api/ProductUnit/GetUnitById/{id}
+
+..............for Delete= api/ProductUnit/DeleteUnit/{id}
+
+..............for UpdateGET= api/ProductUnit/Upsert/{id}
+
+..............for InsertGet= api/ProductUnit/Upsert
+
+..............for UpdateInsertPost= api/ProductUnit/SaveShopsData
+
+
+
+
+//.................. Sales
+
+..............for GetAll = api/Sales/GetAllSales
+
+..............for GetById = api/Sales/GetSaleById/{id}
+
+..............for Delete= api/Sales/DeleteSale/{id}
+
+..............for UpdateGET= api/Sales/Upsert/{id}
+
+..............for InsertGet= api/Sales/Upsert
+
+..............for UpdateInsertPost= api/Sales/SaveSalesData
+
+
+
