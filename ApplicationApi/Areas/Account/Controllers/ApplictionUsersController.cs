@@ -82,6 +82,7 @@ namespace ApplicationApi.Areas.Account.Controllers
             result.Value = new { Data = false };
             return result;
         }
+        [AllowAnonymous]
         [HttpPost("VerifyUserLogin")]
         public IActionResult LoginUser(ApplicationUser user)
         {

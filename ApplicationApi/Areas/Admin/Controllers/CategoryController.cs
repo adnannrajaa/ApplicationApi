@@ -96,7 +96,7 @@ namespace ApplicationApi.Areas.Admin.Controllers
         //........................Perform POST Insert and Update Actions
 
         [HttpPost("SaveCategoryData")]
-        public IActionResult Upsert([FromForm]ProductCategory category)
+        public IActionResult Upsert(ProductCategory category)
         {
             JsonResult result = new JsonResult(new { });
             if (category.CategoryId == 0)

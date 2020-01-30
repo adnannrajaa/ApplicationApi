@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ApplicationApi.Areas.User.Controllers
 {
-    [Authorize(StaticControllers.Cart)]
+    //[Authorize(StaticControllers.Cart)]
     [Area("User")]
     [Route("api/[controller]")]
     [ApiController]

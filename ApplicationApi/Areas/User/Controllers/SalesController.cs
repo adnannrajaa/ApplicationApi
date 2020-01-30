@@ -116,7 +116,7 @@ namespace ApplicationApi.Areas.User.Controllers
             return result;
         }
         //.......................................Add to Cart
-        [HttpPost("addToCart/{ProductId}")]
+        [HttpPost("addToCart/{ProductId?}")]
         public IActionResult AddToCart(int ProductId)
         {
             JsonResult result = new JsonResult(new { });
