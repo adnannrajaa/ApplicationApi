@@ -8,6 +8,7 @@ using ApplicationApi.Models.DataModels;
 using ApplicationApi.Models.ViewModels;
 using ApplicationApi.Utility;
 using Dapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -48,6 +49,7 @@ namespace ApplicationApi.Areas.Account.Controllers
         }
 
         //get All the users axcept Logged in User
+        [Authorize(Roles =Roles.EMPLOYEE)]
         [HttpGet("DisplayUsersInfo")]
         public IActionResult GetAllUserInfo()
         {

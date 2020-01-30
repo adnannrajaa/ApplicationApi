@@ -44,7 +44,7 @@ namespace ApplicationApi
             {
                 // authentication successful so generate jwt token
                 var tokenHandler = new JwtSecurityTokenHandler();
-                var RoleName = _db.User.GetRoleById(user.RoleId);
+                var RoleName = _db.User.GetRoleById(user.RoleId).Name;
                 var key = Encoding.ASCII.GetBytes(_appsettings.Secret);
              
                 var tokenDescriptor = new SecurityTokenDescriptor
@@ -52,8 +52,7 @@ namespace ApplicationApi
                     Subject = new ClaimsIdentity(new Claim[]
                     {
                     new Claim(ClaimTypes.Name, user.Id.ToString()),
-                    new Claim(ClaimTypes.Name, user.Id.ToString()),
-                    new Claim(ClaimTypes.Role, RoleName.ToString())
+                    new Claim(ClaimTypes.Role, RoleName)
 
                     }),
                     Expires = DateTime.UtcNow.AddHours(12),
