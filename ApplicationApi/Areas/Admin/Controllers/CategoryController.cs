@@ -11,7 +11,7 @@ using ApplicationApi.CustomAttributes;
 
 namespace ApplicationApi.Areas.Admin.Controllers
 {
-    [Authorize(StaticControllers.Category)]
+    //[Authorize(StaticControllers.Category)]
     [Area("Admin")]
     [ApiController]
     [Route("api/[controller]")]
@@ -96,7 +96,7 @@ namespace ApplicationApi.Areas.Admin.Controllers
         //........................Perform POST Insert and Update Actions
 
         [HttpPost("SaveCategoryData")]
-        public IActionResult Upsert(ProductCategory category)
+        public IActionResult Upsert([FromForm]ProductCategory category)
         {
             JsonResult result = new JsonResult(new { });
             if (category.CategoryId == 0)
