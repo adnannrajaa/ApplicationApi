@@ -7,6 +7,7 @@ namespace ApplicationApi.Models.ViewModels
     public class PerformanceVM
     {
         public int id { get; set; }
+        public string UserId { get; set; }
         public string EmployeeName { get; set; }
         public string Month { get; set; }
         public Nullable<float> TotalTarget { get; set; }

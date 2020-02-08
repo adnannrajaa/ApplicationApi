@@ -20,7 +20,7 @@ end
 
 CREATE PROCEDURE usp_UsersGetAllEmployeePerformance
 AS
-	select p.PerformanceId as 'id', u.FirstName+' '+u.LastName as 'EmployeeName', p.Month as 'Month',
+	select p.PerformanceId as 'id', p.UserId, u.FirstName+' '+u.LastName as 'EmployeeName', p.Month as 'Month',
 p.TotalTarget as 'TotalTarget' ,ISNULL(p.TargetAchieved,0) as 'TargetAchieved' ,
 ISNULL(p.Completion,0) as 'Completion' , p.IsMonthClosed as 'IsMonthClosed'
 from Performances p inner join AspNetUsers u on p.UserId=u.id

@@ -99,7 +99,7 @@ namespace ApplicationApi.Areas.Account.Controllers
         }
 
         [HttpPost("CreateNewUser")]
-        public IActionResult CreateUser([FromForm]ApplicationUser user)
+        public IActionResult CreateUser(ApplicationUser user)
         {
             JsonResult result = new JsonResult(new { });
             var password = _unitOfWork.User.hashPassword(user.PasswordHash);
