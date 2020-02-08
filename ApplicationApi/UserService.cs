@@ -19,6 +19,7 @@ namespace ApplicationApi
 {
     public interface IUserService
     {
+
         ApplicationUser Authenticate(ApplicationUser _User);
         IEnumerable<ApplicationUser> GetAll();
 
