@@ -11,6 +11,7 @@ namespace ApplicationApi.Utility
         public const string usp_GetAllEmployeePerformance = "usp_UsersGetAllEmployeePerformance";
         public const string usp_PropductGetAllProducts = "usp_ProductGetAllProducts";
         public const string usp_CompaniesGetAllCompanies = "usp_CompaniesGetAllCompanies";
+        public const string usp_WagesGetAllEmployeesWages = "usp_WagesGetAllEmployeesWages";
 
 
     }

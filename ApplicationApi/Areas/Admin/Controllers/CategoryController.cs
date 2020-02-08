@@ -113,7 +113,6 @@ namespace ApplicationApi.Areas.Admin.Controllers
         }
 
         //........................Perform POST Insert and Update Actions
-
         [HttpGet("VerifyCategoryName/{CategoryName}")]
         public IActionResult verifyCategoryName(string CategoryName)
         {

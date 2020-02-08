@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using ApplicationApi.CustomAttributes;
 using ApplicationApi.DataAccess.Data.Repository.IRepository;
 using ApplicationApi.Models.DataModels;
+using ApplicationApi.Models.ViewModels;
 using ApplicationApi.Utility;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -30,7 +31,7 @@ namespace ApplicationApi.Areas.Admin.Controllers
         public IActionResult GetAll()
         {
             JsonResult result = new JsonResult(new { });
-            var objFromDb = _unitOfWork.wages.GetAll(orderBy: o=>o.OrderByDescending(o=>o.WagesId)).Where(s=>s.WagesYear==Convert.ToString(DateTime.Now.Year));
+            var objFromDb = _unitOfWork.SP_Call.ReturnList<WagesVM>(SP.usp_WagesGetAllEmployeesWages);
             if (objFromDb == null)
             {
                 result.Value = new { Data = false };

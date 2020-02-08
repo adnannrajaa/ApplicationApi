@@ -12,7 +12,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ApplicationApi.Areas.Admin.Controllers
 {
-    [Authorize(StaticControllers.Company)]
+   // [Authorize(StaticControllers.Company)]
     [Area("Admin")]
     [Route("api/[controller]")]
     [ApiController]

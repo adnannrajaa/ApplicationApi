@@ -1,0 +1,11 @@
+﻿CREATE PROCEDURE [dbo].usp_WagesGetAllEmployeesWages
+
+AS
+select 
+w.WagesId,w.UserId,u.FirstName + ' '+u.LastName as 'FullName',w.CurrentSalary,w.SalaryPaid,w.WagesYear,
+w.Incentives,w.otherBenifits,w.WagesMonth,w.OutStanding,w.CreatedBy,w.CreatedDate
+from wages w inner join AspNetUsers u 
+on w.UserId=u.id
+where w.WagesYear=Year(GETDATE())
+order by WagesId desc
+RETURN 0
